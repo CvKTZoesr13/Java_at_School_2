@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+
+
+public class ArrayListExample {
+	public static void main(String[] args) {
+		// creating arraylist
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("HTML");
+		list.add("Javascript");
+		list.add("PHP");
+		list.add("Java");
+		for (String string : list) {
+			System.out.println(list.get(0));
+		}
+	}
+}
